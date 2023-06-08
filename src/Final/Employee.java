@@ -1,33 +1,33 @@
 package Final;
 
 public class Employee {
-    private int ID;
-    private int Salary;
-    private int Rank;
+    private String ID;
+    private String Salary;
+    private String Rank;
 
 
 
-    public int getID() {
+    public String getID() {
         return ID;
     }
 
-    public void setID(int ID) {
+    public void setID(String ID) {
         this.ID = ID;
     }
 
-    public int getSalary() {
+    public String getSalary() {
         return Salary;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(String salary) {
         Salary = salary;
     }
 
-    public int getRank() {
+    public String getRank() {
         return Rank;
     }
 
-    public void setRank(int rank) {
+    public void setRank(String rank) {
         Rank = rank;
     }
 }

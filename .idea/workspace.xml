@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faaf1119-75ff-4e04-980e-eccecc16142b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Final/Cs2140-Final-S1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Final/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Final/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Final/IDs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Final/Ranks.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Final/Salaries.txt" afterDir="false" />
+    <list default="true" id="faaf1119-75ff-4e04-980e-eccecc16142b" name="Changes" comment="ss">
+      <change beforePath="$PROJECT_DIR$/src/Final/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final/GUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +70,26 @@
       <option name="presentableId" value="Default" />
       <updated>1686204656864</updated>
     </task>
+    <task id="LOCAL-00001" summary="ss">
+      <created>1686209882627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686209882627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Final/GUI.java</url>
-          <line>133</line>
+          <line>134</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

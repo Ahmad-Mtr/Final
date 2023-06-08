@@ -132,39 +132,39 @@ public class GUI implements ActionListener {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-            Employees.get(i).setID(Integer.parseInt(x1));
-            Employees.get(i).setRank(Integer.parseInt(x2));
-            Employees.get(i).setSalary(Integer.parseInt(x3));
+            Employees.get(i).setID(x1);
+            Employees.get(i).setRank(x2);
+            Employees.get(i).setSalary(x3);
             i++;
         }
-        int  MaxPerf = Employees.get(0).getRank() ;
-        int  MaxPerfID = Employees.get(0).getID() ;
+        int  MaxPerf = Integer.parseInt( Employees.get(0).getRank()) ;
+        int  MaxPerfID = Employees.get(0).getID() );
 
-        int MinSalary = Employees.get(0).getSalary();
-        int maxSalary = Employees.get(0).getSalary();
+        int MinSalary = Employees.get(0).getSalary());
+        int maxSalary = Employees.get(0).getSalary());
 
-        int ID_minSalary = Employees.get(0).getID();
+        int ID_minSalary = Employees.get(0).getID());
 
 
         for (int j = 0; j < Employees.size(); j++) {        // Get Data
-            if (Employees.get(j).getSalary() > maxSalary){  // MaxSalary
+            if (Integer.parseInt( Employees.get(j).getSalary()) > maxSalary){  // MaxSalary
                 maxSalary = Employees.get(j).getSalary();
 
             }
-            if (Employees.get(j).getRank() > MaxPerf){  //  max Perf
+            if (Integer.parseInt( Employees.get(j).getRank()) > MaxPerf){  //  max Perf
                 MaxPerf = Employees.get(j).getRank();
                 MaxPerfID = Employees.get(j).getID();
             }
-            if (Employees.get(j).getSalary() < MinSalary){  //  min Salary
+            if (Integer.parseInt( Employees.get(j).getSalary()) < MinSalary){  //  min Salary
                 MinSalary = Employees.get(j).getSalary();
                 ID_minSalary = Employees.get(j).getID();
             }
         }
 
-        res1 = Integer.toString(maxSalary);
-        res2 = Integer.toString(MinSalary);
-        res3 = Integer.toString(ID_minSalary);
-        res4 =Integer.toString(MaxPerfID);
+        res1 =String.valueOf(maxSalary);
+        res2 = String.valueOf(MinSalary);
+        res3 = String.valueOf(ID_minSalary);
+        res4 =String.valueOf(MaxPerfID);
 
         TF_MaxSalary.setText(res1);
 
