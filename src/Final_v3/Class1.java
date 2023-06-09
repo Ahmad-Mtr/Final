@@ -20,8 +20,10 @@ public class Class1 implements ActionListener {
     private FileReader UN_Read, Pass_Read;
     private BufferedReader UN_BuffRead, Pass_BuffRead;
     private String[] Usernames, Passwords;
-    int NumofLines = 0;
+    private int c = 0, occ=0;
+    int NumofLines = 0 ;
     boolean _isInfo = false;
+
 
     public void m1() {
         GUI1_Frame = new JFrame("Temp Converter");
@@ -73,11 +75,42 @@ public class Class1 implements ActionListener {
         boolean _isUN = false;
         boolean _isPass = false;
         //
-        String temp;
-        Usernames = new String[16];
-        Passwords = new String[16];
+        String temp ,temp2;
+        Usernames = new String[17];
+        Passwords = new String[17];
+        int indes =0;
 
-        for (int i = 0; (temp = UN_BuffRead.readLine()) != null; i++) {
+        String x = GUI1_TF_UserName1.getText();
+        String y = GUI1_TF_Password2.getText();
+
+
+
+        while (true){
+            temp = UN_BuffRead.readLine();
+            if (temp == null) break;
+            System.out.println("3");
+            //temp = UN_BuffRead.readLine();
+            NumofLines++;
+            System.out.println("\t" + NumofLines);
+            Usernames[indes] = temp;
+            temp2 = Pass_BuffRead.readLine();
+            //NumofLines++;
+            Passwords[indes] = temp2;
+            if ((temp.equals(x)) && (temp2.equals(y) ) && (y != null)){
+                _isUN = true;
+                _isPass =true;
+            }
+            System.out.println("\t\t\t" + Usernames[indes]);
+            indes++;
+
+        }
+        if (c == 0)
+            occ = NumofLines;
+        c++;
+
+
+
+        /*for (int i = 0; (temp = UN_BuffRead.readLine()) != null; i++) {
             System.out.println("3");
             temp = UN_BuffRead.readLine();
             NumofLines++;
@@ -87,29 +120,27 @@ public class Class1 implements ActionListener {
         }
         for (int i = 0; (temp = Pass_BuffRead.readLine()) != null; i++) {
             System.out.println("4");
-            temp = Pass_BuffRead.readLine();
-            //NumofLines++;
-            Passwords[i] = temp;
-        }
+
+        }*/
         //
 
-        int i;
-        String x = GUI1_TF_UserName1.getText();
-        String y = GUI1_TF_Password2.getText();
-        System.out.println("zzzzzzzzzzzzzzzzzzz");
-        for (i = 0; i < 17; i++) {
-            String z = Usernames[i];
-            System.out.println(z);
-            if (z == x) {
-                System.out.println("5A");
-                _isUN = true;
-            }
-            if (_isUN) break;
-        }
-        if (Objects.equals(Passwords[i], y)) {
-            System.out.println("6");
-            _isPass = true;
-        }
+//        int i;
+//        String x = GUI1_TF_UserName1.getText();
+//        String y = GUI1_TF_Password2.getText();
+//        System.out.println("zzzzzzzzzzzzzzzzzzz");
+//        for (i = 0; i < 17; i++) {
+//            String z = Usernames[i];
+//            System.out.println(z);
+//            if (z == x) {
+//                System.out.println("5A");
+//                _isUN = true;
+//            }
+//            if (_isUN) break;
+//        }
+//        if (Objects.equals(Passwords[i], y)) {
+//            System.out.println("6");
+//            _isPass = true;
+//        }
         return _isPass;
     }
 
