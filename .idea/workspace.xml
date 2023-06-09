@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faaf1119-75ff-4e04-980e-eccecc16142b" name="Changes" comment="Final v3">
+      <change afterPath="$PROJECT_DIR$/src/Final_v3/InfotoDelete1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Final_v3/InfotoDelete2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Final_v3/Class1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final_v3/Class1.java" afterDir="false" />
     </list>
@@ -82,9 +84,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Final.tm" />
+      <module name="Final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Final.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Class1" />
+        <item itemvalue="Application.tm" />
         <item itemvalue="Application.GUI" />
       </list>
     </recent_temporary>
@@ -161,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686332231004</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Final v3">
+      <created>1686338541109</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686338541110</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

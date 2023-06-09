@@ -20,8 +20,8 @@ public class Class1 implements ActionListener {
     private FileReader UN_Read, Pass_Read;
     private BufferedReader UN_BuffRead, Pass_BuffRead;
     private String[] Usernames, Passwords;
-    private int c = 0, occ=0;
-    int NumofLines = 0 ;
+    private int c = 0, occ = 0;
+    int NumofLines = 0;
     boolean _isInfo = false;
 
 
@@ -75,17 +75,16 @@ public class Class1 implements ActionListener {
         boolean _isUN = false;
         boolean _isPass = false;
         //
-        String temp ,temp2;
+        String temp, temp2;
         Usernames = new String[17];
         Passwords = new String[17];
-        int indes =0;
+        int indes = 0;
 
         String x = GUI1_TF_UserName1.getText();
         String y = GUI1_TF_Password2.getText();
 
 
-
-        while (true){
+        while (true) {
             temp = UN_BuffRead.readLine();
             if (temp == null) break;
             System.out.println("3");
@@ -96,9 +95,9 @@ public class Class1 implements ActionListener {
             temp2 = Pass_BuffRead.readLine();
             //NumofLines++;
             Passwords[indes] = temp2;
-            if ((temp.equals(x)) && (temp2.equals(y) ) && (y != null)){
+            if ((temp.equals(x)) && (temp2.equals(y)) && (y != null)) {
                 _isUN = true;
-                _isPass =true;
+                _isPass = true;
             }
             System.out.println("\t\t\t" + Usernames[indes]);
             indes++;
@@ -171,8 +170,8 @@ public class Class1 implements ActionListener {
         GUI2_Pnl3 = new JPanel();
         GUI2_L_Fahren = new JLabel("Fahrenheit:");
         GUI2_L_Cels = new JLabel("Celsius:");
-        GUI2_TF_Cels = new JTextField();
-        GUI2_TF_Fahren = new JTextField();
+        GUI2_TF_Cels = new JTextField("0.00 C");
+        GUI2_TF_Fahren = new JTextField("0.00 F");
         Reset = new JButton("Reset");
         GUI2_Butt_FtoC = new JButton("to Celsius");
         GUI2_Butt_CtoF = new JButton("to Fahrenheit");
@@ -253,14 +252,14 @@ public class Class1 implements ActionListener {
         if (e.getSource() == ClearData) {
             FileWriter FW = null;
             try {
-                FW = new FileWriter("Usernames.txt");
+                FW = new FileWriter("C:\\Users\\YOUSEF MAHMOUD\\IdeaProjects\\Final\\src\\Final_v3\\InfotoDelete1.txt");
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
             BufferedWriter BW = new BufferedWriter(FW);
             FileWriter FW2 = null;
             try {
-                FW2 = new FileWriter("Passwords.txt");
+                FW2 = new FileWriter("C:\\Users\\YOUSEF MAHMOUD\\IdeaProjects\\Final\\src\\Final_v3\\InfotoDelete2.txt");
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
@@ -287,7 +286,12 @@ public class Class1 implements ActionListener {
             }
         }
         if (e.getSource() == ShowUsers) {
-
+            String allusers = "";
+            for (String x :
+                    Usernames) {
+                allusers += x + "\n";
+            }
+            JOptionPane.showMessageDialog(GUI2_Frame, allusers);
         }
         if (e.getSource() == CountUsers) {
             JOptionPane.showMessageDialog(GUI2_Frame, NumofLines);
