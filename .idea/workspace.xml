@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faaf1119-75ff-4e04-980e-eccecc16142b" name="Changes" comment="ss">
-      <change afterPath="$PROJECT_DIR$/src/Final_v3/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="faaf1119-75ff-4e04-980e-eccecc16142b" name="Changes" comment="Final v3">
+      <change beforePath="$PROJECT_DIR$/src/Final_v3/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final_v3/Instructions.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QuXtVgiVstvgal1iqrGRORENFd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,12 +84,34 @@
       <option name="project" value="LOCAL" />
       <updated>1686209882627</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final v3">
+      <created>1686307728096</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686307728096</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Final v3">
+      <created>1686307939778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686307939778</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Final v3">
+      <created>1686307988903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686307988903</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ss" />
-    <option name="LAST_COMMIT_MESSAGE" value="ss" />
+    <MESSAGE value="Final v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final v3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
