@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="faaf1119-75ff-4e04-980e-eccecc16142b" name="Changes" comment="Final v3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Final/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Final_v3/Class1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final_v3/Class1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686315609639</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Final v3">
+      <created>1686325055064</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686325055064</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
