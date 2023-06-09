@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faaf1119-75ff-4e04-980e-eccecc16142b" name="Changes" comment="Final v3">
-      <change afterPath="$PROJECT_DIR$/src/Final_v3/InfotoDelete1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Final_v3/InfotoDelete2.txt" afterDir="false" />
+    <list default="true" id="faaf1119-75ff-4e04-980e-eccecc16142b" name="Changes" comment="Added README.md">
+      <change afterPath="$PROJECT_DIR$/src/Final/Data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Final_v3/Class1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final_v3/Class1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Final/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final/GUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Method2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\YOUSEF MAHMOUD\IdeaProjects\Final\src\Final_v3" />
       <recent name="C:\Users\a.mahmoud\IdeaProjects\Final\src\Final" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Class1">
+  <component name="RunManager" selected="Application.GUI">
     <configuration name="Class1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Final_v3.Class1" />
       <module name="Final" />
@@ -99,9 +98,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GUI" />
         <item itemvalue="Application.Class1" />
         <item itemvalue="Application.tm" />
-        <item itemvalue="Application.GUI" />
       </list>
     </recent_temporary>
   </component>
@@ -184,21 +183,52 @@
       <option name="project" value="LOCAL" />
       <updated>1686338541110</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added README.md">
+      <created>1686345316147</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686345316147</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ss" />
     <MESSAGE value="Final v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final v3" />
+    <MESSAGE value="Added README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Final/GUI.java</url>
-          <line>134</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/Final_v3/Class1.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
