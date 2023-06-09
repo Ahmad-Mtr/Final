@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faaf1119-75ff-4e04-980e-eccecc16142b" name="Changes" comment="Final v3">
+      <change afterPath="$PROJECT_DIR$/src/Final_v3/Class1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Final_v3/Passwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Final_v3/Sess#3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Final_v3/Usernames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Final_v3/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final_v3/Instructions.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +49,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\YOUSEF MAHMOUD\IdeaProjects\Final\src\Final_v3" />
       <recent name="C:\Users\a.mahmoud\IdeaProjects\Final\src\Final" />
     </key>
   </component>
@@ -105,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686307988903</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Final v3">
+      <created>1686309114384</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686309114384</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Final v3">
+      <created>1686309409570</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686309409570</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
