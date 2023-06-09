@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faaf1119-75ff-4e04-980e-eccecc16142b" name="Changes" comment="Final v3">
-      <change afterPath="$PROJECT_DIR$/src/Final_v3/Class1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Final_v3/Passwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Final_v3/Sess#3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Final_v3/Usernames.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Final_v3/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final_v3/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Final/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Final_v3/Class1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final_v3/Class1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,20 @@
       <recent name="C:\Users\a.mahmoud\IdeaProjects\Final\src\Final" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Class1">
+    <configuration name="Class1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Final_v3.Class1" />
+      <module name="Final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Final_v3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Final.GUI" />
       <module name="Final" />
@@ -69,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Class1" />
         <item itemvalue="Application.GUI" />
       </list>
     </recent_temporary>
@@ -124,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686309409570</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final v3">
+      <created>1686315609639</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686315609639</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
